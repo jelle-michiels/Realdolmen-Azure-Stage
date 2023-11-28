@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "func_protime_dev_westeurope": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7079",
+      "launchBrowser": false
+    }
+  }
+}
