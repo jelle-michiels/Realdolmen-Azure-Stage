@@ -24,7 +24,7 @@ namespace func_protime_dev_westeurope
 
             var dataFromBody = await req.ReadAsStringAsync();
 
-            var encryptedData = EncryptData("Welcome to Azure Functions!");
+            var encryptedData = EncryptData(dataFromBody);
 
             var response = req.CreateResponse(HttpStatusCode.OK);
             response.Headers.Add("Content-Type", "text/plain; charset=utf-8");

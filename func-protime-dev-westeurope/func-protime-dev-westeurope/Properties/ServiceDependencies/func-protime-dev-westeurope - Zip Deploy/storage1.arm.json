@@ -50,7 +50,7 @@
           "resources": [
             {
               "sku": {
-                "name": "Standard_RAGRS",
+                "name": "Standard_LRS",
                 "tier": "Standard"
               },
               "kind": "StorageV2",
